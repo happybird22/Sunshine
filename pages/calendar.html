@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Derivatives</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bx-landscape"></i>
+                <span>Sunshine Derivatives</span>
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <div class="user">
+            <img src="../images/activity image.png" alt="" class="profile-img">
+            <p class="bold">Owner Name</p>
+            <p>CEO</p>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <a href="/index.html">
+                        <i class="bx bx-home"></i>
+                        <span class="nav-item">Home</span>
+                    </a>
+                    <span class="tooltip">Home</span>
+                </li>
+                <li>
+                    <a href="./calendar.html">
+                        <i class="bx bx-calendar-check"></i>
+                        <span class="nav-item">Calendar</span>
+                    </a>
+                    <span class="tooltip">Calendar</span>
+                </li>
+                <li>
+                    <a href="./referrals.html">
+                        <i class="bx bx-user-voice"></i>
+                        <span class="nav-item">Referrals</span>
+                    </a>
+                    <span class="tooltip">Referrals</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <h1><i class="bx bx-landscape"></i>Sunshine Derivatives</h1>
+        </div>
+        <br>    
+        <div>
+            <table style="margin-left: 2.5rem;">
+                <caption style="font-weight: 800; font-size: larger;">My Calendar</caption>
+                <thead>
+                   <tr>                    
+                      <th>-</th>
+                      <th>Monday</th>
+                      <th>Tuesday</th>
+                      <th>Wednesday</th>
+                      <th>Thursday</th>
+                      <th>Friday</th>
+                   </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                      <td style="font-weight: 600;">Morning</td>
+                      <td>Available</td>
+                      <td>Booked</td>
+                      <td>Booked</td>
+                      <td>Booked</td>
+                      <td>Booked</td>
+                   </tr>
+                   <tr>
+                      <td style="font-weight: 600;">Afternoon</td>
+                      <td>Booked</td>
+                      <td>Available</td>
+                      <td>Booked</td>
+                      <td>Booked</td>
+                      <td>Booked</td>
+                   </tr>
+                   <tr>
+                    <td style="font-weight: 600;">Evening</td>
+                    <td>Available</td>
+                    <td>Available</td>
+                    <td>Booked</td>
+                    <td>Available</td>
+                    <td>Available</td>
+                 </tr>
+                </tbody>
+             </table>
+        </div>
+    </div>
+
+
+</body>
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    }
+</script>
+
+</html>
