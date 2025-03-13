@@ -165,11 +165,18 @@
 .imgContainer h1, h3, p {
     text-align: center;
 }
-/* starting styling for table */
-td, th {
-    border: 2px solid #03071e;
-    border-collapse: collapse;
-    width: 100%;
-    text-align: justify;
+#Consult {
+    background-color: #370617;
+    color: #FFBA08;
+    border-radius: 4px;
+    font-size: larger;
+    font-weight: 600;
+    padding: 20px;
+    margin-left: 38rem;
+    margin-top: 5rem;
+}
 
+#gif {
+    margin-left: 33rem;
+    margin-top: 3rem;
 }
