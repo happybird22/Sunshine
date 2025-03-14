@@ -74,16 +74,20 @@
                 <br>
                 <div>
                     <label for="Phone">Your Phone Number</label>
-                    <input type="tel" id="Phone" name="Phone" placeholder="" required>
-                    <label for="time">Morning</label>
-                    <input type="checkbox">
-                    <label for="time">Evening</label>
-                    <input type="checkbox">
+                    <input type="tel" id="Phone" name="Phone" placeholder="Phone Number" required>
+                    <label for="time"></label>
+                    <select name="time" id="time">
+                        <option value="Select">Select One</option>
+                        <option value="Morning">Morning</option>
+                        <option value="Morning">Evening</option>
+                        <option value="Morning">Anytime</option>
+                        <option value="Morning">Do Not Call</option>
+                    </select>
                 </div>
                 <br>
                 <div>
                     <label for="Email">Your Email</label>
-                    <input type="Email" id="Email" name="Email" placeholder="" required>
+                    <input type="Email" id="Email" name="Email" placeholder="Email Address" required>
                 </div>
                 <br>
                 <br>
@@ -101,32 +105,36 @@
                 </div>   
                 <div>
                     <label for="firstName">First Name</label>
-                    <input type="text" id="" name="" placeholder="" required>
+                    <input type="text" id="" name="" placeholder="First Name" required>
                     <label for="lastName">Last Name</label>
-                    <input type="text" id="" name="" placeholder="" required>
+                    <input type="text" id="" name="" placeholder="Last Name" required>
                 </div>
                 <br>
                 <div>
                     <label for="Phone">Phone Number</label>
-                    <input type="tel" id="Phone" name="Phone" placeholder="" required>
-                    <label for="time">Morning</label>
-                    <input type="checkbox">
-                    <label for="time">Evening</label>
-                    <input type="checkbox">
+                    <input type="tel" id="Phone" name="Phone" placeholder="Phone number" required>
+                    <label for="time"></label>
+                    <select name="time" id="time">
+                        <option value="Select">Select One</option>
+                        <option value="Morning">Morning</option>
+                        <option value="Morning">Evening</option>
+                        <option value="Morning">Anytime</option>
+                        <option value="Morning">Do Not Call</option>
+                    </select>
                 </div>
                 <br>
                 <div>
                     <label for="Email">Email Address</label>
-                    <input type="email" id="Email" name="Email" placeholder="" required>
+                    <input type="email" id="Email" name="Email" placeholder="Email Address" required>
                 </div>
                 <br>
                 <div>
                     <label for="Comments">Anything you'd like me to know about why you are referring them?</label>
-                    <input type="text" id="" name="" placeholder="" optional>
+                    <input type="text" id="comment" name="" placeholder="Enter comments" optional>
                 </div>
                 <br>
                 <div>
-                    <input type="submit">
+                    <button id="Consult">Submit</button>
                 </div>
                 
             </form>
